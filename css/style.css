@@ -1,0 +1,381 @@
+*{
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+width: 100%;
+height: 500px;
+background-image: url(../image/travel.png);
+background-size: cover;
+/* opacity: .7;  */
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+
+}
+.clear{
+    clear: both;
+}
+nav{
+    padding-top: 20px;
+    /* position: fixed; */
+}
+nav ul li{
+display: inline;
+
+}
+nav ul li {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 30px;
+    /* transition: all 1s ease 1s;     */
+    }
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .logo{
+        float: right;
+        margin-right: 20px;
+        /* margin-top: 20px; */
+        
+    }
+    a:hover{
+        color: rgb(255, 145, 0);
+    }
+    /* *********************** */
+    .hhead{
+        margin: 10px;
+  
+    }
+    .phead{
+        margin: 10px;
+        
+    }
+    .dhead{
+        text-align: center;
+        position: relative;
+        top: 200px;
+        color: aliceblue;
+        
+    }
+    .bhead{
+        background-color: rgb(255, 145, 0);
+        width: 130px;
+        border-radius: 30px;
+        margin-left: 630px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        transition: .7s;
+        
+    }
+    .bhead:hover{
+        padding: 10PX 25PX;
+        background-color:rgb(158, 90, 0) ;
+        /* transition:.3s; */
+
+    }
+    .bsee:hover{
+        padding: 10PX 25PX;
+        background-color: rgb(158, 90, 0);
+    }
+    .pyall:hover{
+        padding: 15px;
+        background-color: rgb(158, 90, 0);
+        }
+    .bsee {
+        background-color: rgb(255, 145, 0);
+        text-align: center;
+        color: rgb(255, 255, 255);
+        width: 130px;
+        border-radius: 30px;
+        margin-left: 630px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top:10px ;
+        padding-bottom:10px ;
+    }
+    /* ********************* */
+
+.dwelcome{
+    text-align: center;
+    padding: 150px;
+}
+.pwelcome{
+    margin: 20px;
+    color: rgb(113, 113, 113);
+}
+.box{
+display: inline-block;
+width: 17%;
+height: 250px;
+margin-left: 100px;
+margin-right: 100px;
+margin-bottom: 30px;
+
+}
+.box:hover{
+box-shadow: 5px 5px 10px 2px rgb(236, 236, 236);
+transition: .3s;
+}
+.one{
+    /* padding-top: 60px; */
+    padding: 30px;
+}
+.hone{
+    margin-bottom: 10px;
+}
+.dd{
+    background-color:rgb(255, 145, 0) ;
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+  
+   
+}
+.ddblack{
+    background-color: rgb(83, 83, 83);
+        width: 10px;
+        height: 10px;
+        border-radius: 20px;
+
+}
+.out{
+    border-style: solid;
+    border-width: thin;
+        border-radius: 20px;
+        padding: 1px;
+        height: 10px;
+        margin: 20px;
+        padding: 3px;    color: rgb(83, 83, 83);
+  
+}
+.outyal {
+    border-style: solid;
+    border-width: thin;
+    color: rgb(255, 159, 4);
+    border-radius: 20px;
+    padding: 1px;
+    height: 15px;
+    margin: 17px;
+    padding: 3px;
+}
+.ddd{
+    display: flex;
+    justify-content: center;
+}
+/*  **********/
+.dFind{
+    display: flex;
+    justify-content: center;
+}
+input{
+    margin: 30px;
+    text-align: center;
+    border: none;
+}
+.ddFind{
+    width: 50%;
+    height: 300px;
+    margin: 10px;
+    padding: 30px;
+    background-image: url(../image/3323A218-15F9-4457-8B21-BAF5CBFEE0A5.png);
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+/* ****************** */
+.sectiond {
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+
+.sectiond > div {
+    /*كل الديف اللي جوا السيكشن*/
+    width: 100%;
+    flex-basis: 25%;
+}
+
+.sectiond > div:first-of-type {
+    /*parint  */
+    gap: 30px;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cild1 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    box-shadow: 5px 5px 10px 2px rgb(236, 236, 236);
+}
+
+
+.img1 {
+    width: 280px;
+    height: 200px;
+}
+
+/*  **************888*/
+.cild2 {
+    box-shadow: 5px 5px 10px 2px rgb(236, 236, 236);
+    height: 400px;
+}
+
+.img2 {
+    width: 100%;
+    height: 250px;
+}
+
+.text2 {
+    padding: 20px;
+
+}
+
+.img22 {
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+}
+
+/* *********88 */
+.img3 {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 40px;
+}
+/* ************************************************************* */
+.dSee {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.pSee {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    color: rgb(113, 113, 113);
+}
+
+ /* ********************************** */
+ .alfa{
+    padding: 20px;
+    width: 50%;
+ }
+.hh44{
+    color:rgb(255, 159, 4) ;
+    margin-top: 40px;
+
+}
+.hh4{
+    color: rgb(86, 86, 86);
+
+}
+
+.painter {
+    width: 30%;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url(../image/gettyimages-910523914.webp);
+    background-size: cover;
+    background-position: center;
+}
+.ff {
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+    height: 40%;
+    box-shadow: 5px 5px 10px 2px rgb(187, 186, 186);
+    display: flex;
+}
+/* ************** */
+.yall{
+    height: 150px;
+    margin-top: 120px;
+    display: flex;
+    background-color:rgb(255, 159, 4) ;
+    color: rgb(255, 255, 255);
+    gap: 300px;
+    justify-content: center;
+    
+}
+.hyall{
+    margin-top: 50px;
+
+
+}
+.pyall{
+    margin-top: 50px;
+    border-style:solid ;
+    color: aliceblue;
+    border-radius: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/* ************************ */
+.dfoo{
+/* display: inline-block;
+    width: 10%;
+    height: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    color: rgb(57, 57, 57); */
+    
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 70px;
+}
+.pend{
+    text-align: center;
+    color: rgb(113, 113, 113);
+}
+.cild11{
+    box-shadow: 5px 5px 10px 2px rgb(236, 236, 236);
+    display: flex;
+    padding: 10px;
+}
+li{
+    list-style-type: none;
+    margin: 10px;
+}
+.pend{
+    margin-top: 50px;
+}
+.dfooo{
+    display: flex;
+}
+.lii{
+    display: inline-block;
+    margin: 10px;
+}
+li{
+    color: rgb(98, 98, 98);
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
